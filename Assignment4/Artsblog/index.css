@@ -1,0 +1,194 @@
+*{
+
+margin:0px;
+padding:0px;
+
+
+}
+/* css for header*/
+
+
+.header  
+{
+height: 90px;
+width: 100%;
+/*background-color: rgba(16,128,2345,1);*/
+display: flex;
+justify-content: center;
+position: fixed;
+}
+
+
+.container
+{
+width:90%;
+/* height:70px; */
+/* background-color: crimson; */
+display: flex;
+
+}
+
+
+.header_container{
+    justify-content: space-between;
+    
+    }
+
+.logo{
+    height:90px;
+    width:15%;
+    /* background-color:yellow; */
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+    line-height: 70px;
+}
+.nav{
+
+height:90px;
+width:35%;
+/* background-color: yellowgreen; */
+display: flex;
+}
+.nav-item
+{
+width:20%;
+height:90px;
+/* background-color: gray; */
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+line-height: 70px;
+color:white;
+cursor: pointer;
+    transition: .4s;
+
+}
+.nav-item:hover{
+    background-color: white;
+    color:rgba(16,128,2345,1);
+}
+.banner{
+
+height:95vh;
+width: 100%;
+background-color: gray;
+background-image: url('./images/banner.jpg');
+background-size: cover;
+} 
+.overlay{
+    height:95vh;
+    width: 100%;
+    background-color:rgb(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+}
+.banner_text{
+height: 350px;
+width: 50%;
+background-color:rgba(16,128,2345,0.7);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: flex;
+align-items: center;
+color: white;
+}
+.banner_title{
+font-size: 50px;
+margin-bottom: 15px;
+
+}
+
+.banner_desc{
+ margin-bottom: 30px;
+}
+.padd{
+padding:50px;
+/* background-color: red; */
+}
+
+.banner_btn
+{
+padding-left: 60px;
+padding-right: 60px;
+padding-top: 15px;
+padding-bottom: 15px;
+text-transform: uppercase;
+background-color: transparent;
+color: white;
+font-weight: bold;
+font-family: segoe ui;
+border: 3px solid white;
+cursor: pointer;
+transition: .4s;
+}
+.banner_btn:hover
+{
+    background-color: white;
+    color:rgba(16,128,2345,1);
+}
+
+/*services for css*/
+
+.services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:#e6e6e6;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: segoe UI;
+}
+.services_container{
+    margin-top: 50px; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.service{
+    height: 400px;
+    width:47%;
+    background-color: white;
+    display: flex;
+    margin-top: 20PX;
+    
+}
+.service_img{
+    width:40%;
+    height:400px;
+/*    background-color:#FC4445;*/
+     display: flex;
+    overflow: hidden;
+}
+.service_details
+{
+    width:60%;
+    height:400px;
+/*    background-color:#3FEEE6;*/
+    display: flex;
+    align-items: center;
+}
+.service_padd{
+    padding:20px;
+}
+.service_btn
+{
+padding-left: 60px;
+padding-right: 60px;
+padding-top: 15px;
+padding-bottom: 15px;
+text-transform: uppercase;
+background-color:rgba(16,128,2345,1);
+color: white;
+font-weight: bold;
+font-family: segoe ui;
+border:none;
+cursor: pointer;
+transition: .4s;    
+}
+.service_title{
+    margin-bottom: 15px;
+}
+.service_desc{
+    margin-bottom: 30px;
+}
